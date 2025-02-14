@@ -2,7 +2,8 @@
 # Dokumentasi Penggunaan gscrape.py
 
 ## Pendahuluan
-[unduh aplikasi](https://drive.bps.go.id/s/LP7KyjwzPgeGYqn)
+Silahkan unduh aplikasi pada link berikut ==>>[unduh aplikasi](https://drive.bps.go.id/s/LP7KyjwzPgeGYqn)
+
 `gscrape.py` adalah sebuah script Python yang digunakan untuk melakukan web scraping data dari Google Maps. Script ini dapat dijalankan melalui terminal dengan berbagai parameter untuk menyesuaikan jumlah halaman dan batas data yang ingin dikumpulkan.
 
 ## Instalasi
