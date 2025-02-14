@@ -43,10 +43,9 @@ Script akan menghasilkan output dalam format XLSX atau CSV, tergantung pada peng
 
 ## Catatan
 - Gunakan script ini secara bertanggung jawab dan patuhi kebijakan layanan Google Maps.
-- Jika perlu mengakses data dalam jumlah besar, pertimbangkan untuk menggunakan API resmi dari Google.
 
 ## Pengembang
-Script ini dikembangkan untuk kebutuhan scraping data bisnis dari Google Maps. Untuk pengembangan lebih lanjut atau perbaikan bug, silakan hubungi pengembang atau kontribusi melalui repository terkait.
+Script ini dikembangkan untuk kebutuhan scraping data infrastruktur dari Google Maps. Untuk pengembangan lebih lanjut atau perbaikan bug, silakan chat melalui kolom issue.
 
 ---
 **Versi Script:** 1.0  
