@@ -15,13 +15,14 @@ pip install -r requirements.txt
 Script `gscrape.py` dapat dijalankan dengan menggunakan perintah berikut di terminal:
 
 ```bash
-python gscrape.py --page <jumlah_halaman> --limit <batas_data> --sumber <sumber_data>
+python gscrape.py --page <jumlah_halaman> --limit <batas_data> --sumber <sumber_data> --file <sumber_data>
 ```
 
 ### Parameter
 - `--page`: Menentukan jumlah halaman yang akan di-scrape. Contoh: `--page 1` berarti hanya mengambil data dari halaman pertama.
 - `--limit`: Menentukan jumlah maksimal data yang akan diambil. Contoh: `--limit 1000` berarti akan mengambil maksimal 1000 data.
 - `--sumber`: Menentukan sumber data yang akan diambil. Contoh: `--sumber kadin` akan mengambil data berdasarkan sumber "kadin".
+- `--file`: Menentukan apakah menggunakan file excel pencarian atau dari API server. Contoh: `--file y` akan mengambil data dari file pencarian.xlsx.
 
 ### Contoh Penggunaan
 Misalkan Anda ingin mengambil 1000 data dari halaman pertama dengan sumber "kadin", jalankan perintah berikut:
@@ -31,7 +32,7 @@ python gscrape.py --page 1 --limit 1000 --sumber kadin
 ```
 
 ## Output
-Script akan menghasilkan output dalam format JSON atau CSV, tergantung pada pengaturan dalam script. Biasanya output ini akan disimpan dalam folder tertentu atau langsung ditampilkan di terminal.
+Script akan menghasilkan output dalam format XLSX atau CSV, tergantung pada pengaturan dalam script. Output akan tersimpan dalam folder yang sama dengan script ini.
 
 ## Troubleshooting
 1. **ModuleNotFoundError**: Pastikan Anda telah menginstal semua dependensi dengan `pip install -r requirements.txt`.
